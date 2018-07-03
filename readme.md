@@ -30,3 +30,4 @@ cambiaremos elementos de la página web
 6. Se tiene un párrafo, la idea es que al hacerle click derecho se agregue o remueva la clase cliqueable, el evento al ser cliqueaado se debe mostrar mostrar una alerta.
 
 # semana_9
+# semana_9
