@@ -24,9 +24,23 @@ Para la solución puedes inspirarte en: https://codepen.io/gabrieleromanato/pen/
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <title></title>
   </head>
   <body>
+<img src="http://3.bp.blogspot.com/-nsEKEen4F0o/UbfTvUtkTYI/AAAAAAAAABI/b-PkYdQUdLE/s1600/blogg.jpg">
 
+<script>
+	$(function() {
+    $( "img", "#gallery" ).on( "contextmenu", function( e ) {
+        e.preventDefault();
+        $( "figcaption", "#gallery" ).text( "" );
+        $( this ).next().text( $( this ).attr( "src" ) );
+    });
+    $("img").click(function(){
+    	alert(imagen con derechos de autor)
+    })
+});
+</script>
   </body>
 </html>
